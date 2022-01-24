@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/*
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    padding: 5px 20PX;
+    background: url(arquivos-necessarios-barra-navegacao-vertical/arquivos-necessarios-barra-navegacao-vertical/seta.png) no-repeat LEFT CENTER;
+}
+*/
+
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+
+
+ul a{
+
+    /*Sempre que colocar uma imagem como plano de fundo em menu, eh bom colocar um cor para caso a imagem não carregue. Isso tbm eh valido para o hover*/
+
+    width: 200px;
+    height: 40px;
+    background: #f7b600 url(arquivos-necessarios-barra-navegacao-vertical/arquivos-necessarios-barra-navegacao-vertical/menu.png) no-repeat left bottom;
+    color: #000;
+    text-indent: 40px;
+    text-decoration: none;
+    display: block;
+    line-height: 40px;
+}
+
+a:hover, .selecionado a{
+    background-position: right bottom;
+    background-color:#f99200;
+    color: white;
+}
+
+
+#home #navegacao .home a, 
+#sobre #navegacao .sobre a,
+#noticias #navegacao .noticias a,
+#contato #navegacao .contato a,
+#serviços #navegacao .servicos a,{
+    background-position: right bottom;
+    background-color:#f99200;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

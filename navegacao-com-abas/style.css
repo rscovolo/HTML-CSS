@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+/*
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    padding: 5px 20PX;
+    background: url(arquivos-necessarios-barra-navegacao-vertical/arquivos-necessarios-barra-navegacao-vertical/seta.png) no-repeat LEFT CENTER;
+}
+
+
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+
+
+ul a{
+
+    width: 200px;
+    height: 40px;
+    background: url(arquivos-necessarios-barra-navegacao-vertical/arquivos-necessarios-barra-navegacao-vertical/menu.png) no-repeat left bottom;
+    color: #000;
+    text-indent: 40px;
+    text-decoration: none;
+    display: block;
+    line-height: 40px;
+}
+
+a:hover{
+    background-position: right bottom;
+    color: white;
+}
+*/
+
+body{
+    font-family: "trebuchet MS" Helvetica, sans-serif;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    width: 720px;
+}
+
+ul li{
+    float: left;
+    background: url(arquivos-necessarios-navegacao-abas/arquivos-necessarios-navegacao-abas/aba-direita.png) no-repeat top right;
+}
+
+li a {
+    display: block;
+    padding: 0 2em;
+    line-height: 3em;
+    text-decoration: none;
+    background: url(arquivos-necessarios-navegacao-abas/arquivos-necessarios-navegacao-abas/aba-esquerda.png) no-repeat top left;
+    color: white;
+}
+
+ul a:hover{
+    color: #894a1f;
+}
+
+ul #atual{
+    background: url(arquivos-necessarios-navegacao-abas/arquivos-necessarios-navegacao-abas/aba-direita-atual.png) no-repeat top right;
+}
+
+ul a{
+    background: url(arquivos-necessarios-navegacao-abas/arquivos-necessarios-navegacao-abas/aba-esquerda-atual.png) no-repeat top left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
